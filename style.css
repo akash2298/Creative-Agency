@@ -1,0 +1,554 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior:smooth;
+}
+
+body {
+    background-color: #f8e530;
+    position: relative;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background-color: black;
+    padding: 20px 0px;
+    position: sticky;
+    margin: auto
+    z-index: 2;
+    overflow: hidden;
+}
+
+.logo {
+    width: 25%;
+    float: left;
+}
+
+.menu {
+    float: right;
+    margin-top: 25px;
+}
+
+.menu ul {
+    overflow: hidden;
+}
+
+.menu ul li {
+    float: left;
+    margin-right: 40px;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+ul.nav-menu li.active a {
+    color: #f8e530;
+}
+
+/*Banner style*/
+
+.banner {
+    background-image: url(images/World%20Map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    padding: 170px 0px;
+}
+
+.left {
+    width: 31%;
+    float: left;
+    position: relative;
+    margin-left: 80px;
+}
+
+.left img.shadow {
+    position: absolute;
+    bottom: -50px;
+    left: -5px;
+}
+
+.right {
+    width: 60%;
+    float: left;
+}
+
+.right h1 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 130px;
+    text-transform: uppercase;
+    line-height: 100px;
+    letter-spacing: -8px;
+    margin-bottom: 20px;
+}
+
+.right p {
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    font-weight: 400;
+    width: 600px;
+    text-transform: uppercase;
+}
+
+.btn-1 {
+    margin: auto;
+    background: #000000;
+    color: #ffffff;
+    width: 150px;
+    transform: skewX(20deg);
+    border-radius: 5px;
+}
+
+.btn-1 a {
+    text-align: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    transform: skewX(-20deg);
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+/*Service style*/
+
+#service {
+    background-color: black;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.heading {
+    margin-top: 100px;
+}
+
+.heading h1 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px
+}
+
+.heading h1 span {
+    color: #f8e530;
+}
+
+.heading p {
+    color: lightgray;
+    font-weight: lighter;
+    width: 60%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.service-items {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+
+.service-item {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+}
+
+.service-item h3 {
+    margin: 15px 0px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.service-item p {
+    color: lightgray;
+    width: 70%;
+    margin: auto
+}
+
+.btn-2 {
+    margin: auto;
+    background: #f8e530;
+    color: #ffffff;
+    width: 150px;
+    transform: skewX(20deg);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.btn-2 a {
+    text-align: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    transform: skewX(-20deg);
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+
+/* porfolio Style */
+
+#portfolio {
+    overflow: hidden;
+    background-image: url(images/bg-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+}
+
+#portfolio h2 {
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    letter-spacing: -5px;
+    margin-bottom: 30px;
+}
+
+#portfolio p {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.portfolio-items {
+    margin: auto;
+    margin-top: -5px;
+    width: 78%;
+    overflow: hidden;
+}
+
+.portfolio-items .portfolio-item {
+    display: inline-block;
+    float: left;
+}
+
+.btn-3 {
+    margin: 50px auto;
+    background: #000000;
+    color: #ffffff;
+    width: 150px;
+    transform: skewX(20deg);
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.btn-3 a {
+    text-align: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    transform: skewX(-20deg);
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+/* Brand section style*/
+
+.brand {
+    background-color: #000;
+    text-align: center;
+}
+
+.brand-logo img {
+    margin-top: 40px;
+}
+
+/*Review section style*/
+
+.section-review {
+    color: #fff;
+    background-color: #000;
+    overflow: hidden;
+    padding-bottom: 80px
+}
+
+.section-review h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: -4px;
+    margin-top: 100px;
+}
+
+.section-review p {
+    width: 70%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.reviews {
+    overflow: hidden;
+}
+
+.reviews .review {
+    overflow: hidden;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.reviews .review .quote i {
+    color: #f8e530;
+    font-size: 50px;
+    position: absolute;
+    right: 10px;
+}
+
+.reviews .review img {
+    margin-bottom: 20px;
+}
+
+.reviews .review p {
+    margin: 15px auto;
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.rank i {
+    color: #f8e530;
+}
+
+.rank i:last-child {
+    color: #fff;
+}
+
+.btn-4 {
+    margin: auto;
+    background: #f8e530;
+    color: #ffffff;
+    width: 150px;
+    transform: skewX(20deg);
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+
+.btn-4 a {
+    text-align: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    transform: skewX(-20deg);
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+/*Contact section style*/
+
+#contact {
+    overflow: hidden;
+}
+
+.contact-title h2 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: -4px;
+    margin: 80px 0px;
+}
+
+.address {
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    overflow: hidden
+}
+
+.address h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.address p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px dotted #000;
+}
+
+.address p:last-child {
+    border: none;
+}
+
+.form {
+    width: 50%;
+    float: right;
+    margin-right: 4%;
+}
+
+.form input {
+    border: none;
+    background-color: #000;
+    color: #ddd;
+    width: 35%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 20px
+}
+
+.form input.massage {
+    width: 74%;
+    padding-bottom: 150px;
+}
+
+.btn-5 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: #000000;
+    color: #ffffff;
+    width: 150px;
+    transform: skewX(20deg);
+    border-radius: 5px;
+}
+
+.btn-5 a {
+    text-align: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    transform: skewX(-20deg);
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+/*Footer section style*/
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.about,
+.pages,
+.service-page,
+.social-link {
+    width: 20%;
+    float: left;
+    margin-left: 60px;
+    margin-top: 100px;
+
+}
+
+.about p {
+    font-size: 14px;
+    color: #999;
+}
+
+.pages h3,
+.service-page h3,
+.social-link h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: uppercase
+}
+
+.pages ul,
+.service-page ul,
+.social-link ul {
+    list-style: none;
+    margin-top: 40px;
+}
+
+.pages ul li,
+.service-page ul li {
+    margin-bottom: 20px;
+}
+
+.pages ul li a,
+.service-page ul li a {
+    color: #fff;
+}
+
+.pages ul li a:hover,
+.service-page ul li a:hover {
+    color: #f8e530;
+}
+
+.social-link ul li {
+    display: inline-block;
+    margin-left: 20px
+}
+
+.social-link ul li:first-child {
+    margin: 0px;
+}
+
+.social-link ul li a {
+    color: #f8e530;
+    font-size: 25px;
+}
+
+.social-link ul li a:hover {
+    color: #fff;
+}
+
+.copyright {
+    position: relative;
+}
+
+.copyright p {
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.copyright a {
+    padding: 15px;
+    background-color: #000;
+    color: #f8e530;
+    border-radius: 5px;
+    display: block;
+    font-size: 25px;
+    line-height: 25px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 12px;
+    right: 50px;
+}
